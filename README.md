@@ -6,7 +6,9 @@ We use dataset [tongpython/cats-and-dog](https://www.kaggle.com/tongpython/cat-a
 This dataset is dedicated to public domain under [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/).
 This dataset contains:
 
-- 4001 training samples for cats
-- 4006 training samples for dogs
-- 1012 testing samples for cats
-- 1013 testing samples for dogs
+- 4000 training samples for cats
+- 4000 training samples for dogs
+- 1000 testing samples for cats
+- 1000 testing samples for dogs
+
+We move 1000 images from training sets of each class for validation.

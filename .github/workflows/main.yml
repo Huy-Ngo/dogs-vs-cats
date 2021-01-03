@@ -32,7 +32,7 @@ jobs:
           architecture: 'x64'
 
       - name: Install Keras
-        run: pip install Keras tensorflow
+        run: pip install Keras tensorflow matplotlib
 
       - name: Try running main.py
         run: python main.py

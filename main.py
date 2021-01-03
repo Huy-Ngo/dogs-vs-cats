@@ -3,9 +3,6 @@ from os.path import dirname, abspath, join
 from keras import layers, models, optimizers
 from keras.preprocessing.image import ImageDataGenerator
 
-import tensorflow as tf
-
-tf.logging.set_verbosity(tf.logging.ERROR)
 
 model = models.Sequential()
 

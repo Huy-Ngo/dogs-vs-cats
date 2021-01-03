@@ -33,3 +33,6 @@ jobs:
 
       - name: Install Keras
         run: pip install Keras tensorflow
+
+      - name: Try running main.py
+        run: python main.py

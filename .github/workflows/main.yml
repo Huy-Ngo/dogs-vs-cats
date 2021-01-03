@@ -40,8 +40,5 @@ jobs:
       - name: 'Upload Artifact'
         uses: actions/upload-artifact@v2
         with:
-          name: train_validation_loss_acc
-          path: cnn_train_validation.png
+          path: *.png
           retention-days: 5
-
-

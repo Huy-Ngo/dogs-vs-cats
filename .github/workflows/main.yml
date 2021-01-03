@@ -36,3 +36,12 @@ jobs:
 
       - name: Try running main.py
         run: python main.py
+
+      - name: 'Upload Artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: train_validation_loss_acc
+          path: cnn_train_validation.png
+          retention-days: 5
+
+
